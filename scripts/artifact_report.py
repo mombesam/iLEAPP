@@ -149,4 +149,6 @@ class ArtifactHtmlReport:
             self.report_file.close()
             self.report_file = None
 
-        
+    # Add Map Element to artifact
+    def add_map(self, param):
+        self.report_file.write(f'{param}')
