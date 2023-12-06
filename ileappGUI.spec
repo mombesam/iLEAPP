@@ -11,6 +11,7 @@ a = Analysis(['ileappGUI.py'],
                     ('.\\scripts\\dark-mode.css', '.\\scripts'),
                     ('.\\scripts\\dark-mode-switch.js', '.\\scripts'),
                     ('.\\scripts\\feather.min.js', '.\\scripts'),
+                    ('.\\scripts\\strava_functions.js', '\\scripts'),
                     ('.\\scripts\\MDB-Free_4.13.0', '.\\scripts\\MDB-Free_4.13.0'),
                     ('.\\scripts\\artifacts', '.\\scripts\\artifacts')],
 
