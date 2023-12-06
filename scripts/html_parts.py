@@ -28,6 +28,9 @@ page_header = \
         <!-- Icons -->
         <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
         <script src="_elements/feather.min.js"></script>
+        
+        <!-- Strava Functions -->
+    	<script type="text/javascript" src="_elements/strava_functions.js"></script>
     </head>
     <body>
 """
