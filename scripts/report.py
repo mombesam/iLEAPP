@@ -997,6 +997,8 @@ def generate_report(reportfolderbase, time_in_secs, time_HMS, extraction_type, i
         shutil.copyfile(os.path.join(__location__, "logo.jpg"), os.path.join(elements_folder, "logo.jpg"))
         shutil.copyfile(os.path.join(__location__, "dashboard.css"), os.path.join(elements_folder, "dashboard.css"))
         shutil.copyfile(os.path.join(__location__, "feather.min.js"), os.path.join(elements_folder, "feather.min.js"))
+        # Strava Custom JS
+        shutil.copyfile(os.path.join(__location__, "strava_functions.js"), os.path.join(elements_folder, "strava_functions.js"))
         shutil.copyfile(os.path.join(__location__, "dark-mode.css"), os.path.join(elements_folder, "dark-mode.css"))
         shutil.copyfile(os.path.join(__location__, "dark-mode-switch.js"),
                         os.path.join(elements_folder, "dark-mode-switch.js"))
@@ -1150,4 +1152,3 @@ def mark_item_active(data, itemname):
     else:
         ret = data[0: pos] + " active" + data[pos:]
         return ret
-    
