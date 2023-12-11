@@ -19,7 +19,7 @@ __artifacts_v2__ = {
     "Strava": {
         "name": "Strava Artifacts",
         "description": "Extract all the data available related to Strava application (activities, athletes and routes)",
-        "author": "@biancric - @EleRacca - @mombesam",
+        "author": "@biancric - @Dchallandes - @EleRacca - @mombesam - @vbenassi - @Vuillerom",
         "version": "0.1",
         "date": "2023-12-12",
         "requirements": "folium, fitdecode, xlsxwriter, and polyline",
